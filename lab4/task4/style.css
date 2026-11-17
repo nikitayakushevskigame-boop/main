@@ -1,0 +1,59 @@
+/* 1. Курсив, жирність і підкреслення */
+.text-background span {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* 2. Жовтий фон */
+div .text-background span {
+    background-color: yellow;
+}
+
+/* 3. Сірий фон і перекреслення */
+span span {
+    background-color: gray;
+    text-decoration: line-through;
+}
+
+/* 4. Великі літери та розмір 18px */
+ol span span {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* 5. Тінь і відступ першого рядка */
+section > p {
+    text-shadow: 3px 3px 5px brown;
+    text-indent: 50px;
+}
+
+/* 6. Зображення замість маркера */
+li > ul {
+    list-style-image: url("materials/check.png");
+}
+
+/* 7. Відстань між словами */
+div > .text-background {
+    word-spacing: 50px;
+}
+
+/* 8. Жирні абзаци */
+.text-bold > p {
+    font-weight: bold;
+}
+
+/* 9. Міжрядковий інтервал */
+.text-bold > section > p {
+    line-height: 45px;
+}
+
+/* 10. Коричневий фон після зображення */
+img + p {
+    background-color: brown;
+}
+
+/* 11. Червоні абзаци після section */
+section ~ p {
+    color: red;
+}

@@ -1,0 +1,65 @@
+body {
+    max-width: 740px;
+    margin: 10px auto;
+    padding: 8px;
+    border: 1px solid #9999cc;
+    font-family: "Times New Roman", serif;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 18px;
+    font-size: 30px;
+    color: red;
+}
+
+h2 {
+    margin: 0 0 18px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.product {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+sub,
+sup {
+    font-size: 12px;
+    line-height: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.old {
+    text-decoration: line-through;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+hr {
+    width: 64%;
+    height: 4px;
+    margin: 14px auto;
+    background-color: green;
+    border: none;
+}
+
+#note {
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+}
